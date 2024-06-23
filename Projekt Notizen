@@ -17,7 +17,8 @@ Fehlerbehandlung:
 
 Aufgabe 2
 1. Identifiziere die relevanten Datenfelder für die Analyse und Visualisierung.
-  Nicht relevante Datenfelder: 
+  Datenbereinigung:
+    rausnehmen:
     - Homepage (brauchen wir nicht für unsere Abfragen und hilft uns nicht auf einen anderen Datensatz zuzugreifen)
     - Hochschulkurzname (Wir haben den ganzen Hochschulnamen schon)
     - Gründungsjahr (brauchen wir nicht für unsere Abfragen und auch nicht um auf den anderen Datensatz zuzugreifen)
@@ -28,12 +29,3 @@ Aufgabe 2
 3. Transformieren Sie das ERM in ein relationales Modell.
 
 4. Richte eine PostgreSQL-Datenbank basierend auf Ihrem relationalen Modell ein
-
-Datenbereinigung:
-rausnehmen:
--  
-- 
-- 
-- 
-- 
-- 
