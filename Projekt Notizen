@@ -19,10 +19,10 @@ Aufgabe 2
 1. Identifiziere die relevanten Datenfelder für die Analyse und Visualisierung.
   Datenbereinigung:
     rausnehmen:
-    - Homepage (brauchen wir nicht für unsere Abfragen und hilft uns nicht auf einen anderen Datensatz zuzugreifen)
+    - Homepage (Brauchen wir nicht für unsere Abfragen und hilft uns nicht auf einen anderen Datensatz zuzugreifen)
     - Hochschulkurzname (Wir haben den ganzen Hochschulnamen schon)
-    - Gründungsjahr (brauchen wir nicht für unsere Abfragen und auch nicht um auf den anderen Datensatz zuzugreifen)
-    -
+    - Gründungsjahr (Brauchen wir nicht für unsere Abfragen und auch nicht um auf den anderen Datensatz zuzugreifen)
+    - Habilitationsrecht (Brauchen wir nicht für unsere Abfragen und auch nicht um auf den anderen Datensatz zuzugreifen)
 
 2. Zeichne ein Entity-Relationship-Modell (ERM) für die Datensätze.
 
