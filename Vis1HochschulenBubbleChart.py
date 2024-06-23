@@ -14,6 +14,7 @@ print(hochschulen_df.columns)
 m = folium.Map(location=[51.1657, 10.4515], zoom_start=6)
 
 # Jede Hochschule als Punkt auf der Karte hinzufügen
+# müssen die stadt in latitude und longtitude umwandeln
 for idx, row in hochschulen_df.iterrows():
     if pd.notnull(row['Latitude']) and pd.notnull(row['Longitude']):
         folium.CircleMarker(
