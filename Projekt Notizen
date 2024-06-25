@@ -1,5 +1,8 @@
 DBS Notizen
 
+Google Docs Dokument:
+https://docs.google.com/document/d/105-mwPhixe-p2LUEwojMksGveNljEpSg6qXmx8HPLLk/edit?usp=sharing
+
 Aufgabe 1
 Schaue dir die Datensätze hochschulen.csv1 und bevoelkerung.csv2 an.
 Konzipiere eine Datenvisualisierung, die Informationen aus den gegebenen Datensätzen
@@ -27,5 +30,9 @@ Aufgabe 2
 2. Zeichne ein Entity-Relationship-Modell (ERM) für die Datensätze.
 
 3. Transformieren Sie das ERM in ein relationales Modell.
-
+    HOCHSCHULE (Hochschulname, Hochschultyp, Trägerschaft, Anzahl Studierende, Postleitzahl, Ort)
+    IstIn (Ort, Bundesland)
+    Landkreis (Name, Art, (DG), weiblich, männlich)
 4. Richte eine PostgreSQL-Datenbank basierend auf Ihrem relationalen Modell ein
+
+
