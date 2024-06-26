@@ -27,6 +27,7 @@ Aufgabe 2
     rausnehmen:
     - Homepage (Brauchen wir nicht für unsere Abfragen und hilft uns nicht auf einen anderen Datensatz zuzugreifen)
     - Hochschulkurzname (Wir haben den ganzen Hochschulnamen schon)
+    - Hochschultyp (Brauchen wir nicht für unsere Abfragen und hilft uns nicht auf einen anderen Datensatz zuzugreifen)
     - Gründungsjahr (Brauchen wir nicht für unsere Abfragen und auch nicht um auf den anderen Datensatz zuzugreifen)
     - Habilitationsrecht (Brauchen wir nicht für unsere Abfragen und auch nicht um auf den anderen Datensatz zuzugreifen)
     - Promotionsrecht (Brauchen wir nicht für unsere Abfragen und hilft uns nicht auf einen anderen Datensatz zuzugreifen)
@@ -40,5 +41,4 @@ Aufgabe 2
     IstIn (Ort, Bundesland)
     Landkreis (Name, Art, (DG), weiblich, männlich)
 4. Richte eine PostgreSQL-Datenbank basierend auf Ihrem relationalen Modell ein
-
 
