@@ -6,9 +6,9 @@
 import pandas as pa
 
 # CSV-Datei laden:
-file_path = 'D:\FU\DBS\FinalProject\bevoelkerung.csv'  # hier liedt die Datei
+file_path = 'D:\\FU\\DBS\\FinalProject\\bevoelkerung.csv'  # hier liedt die Datei
 # Funktion zum Einlesen: pandas.read
-bev = pa.read_csv(file_path, encoding='latin1', delimiter=';', skiprows=6, error_bad_lines=False)
+bev = pa.read_csv(file_path, encoding='latin1', delimiter=';', skiprows=6)  #, error_bad_lines=False
 # Parameter:
 # encoding = 'latin1': Zeichen werden richtig dargestellt
 # delimeter: Trennzeichen der CSV
@@ -26,7 +26,7 @@ cleaned_bev = bev.dropna()
 cleaned_bev = cleaned_bev.drop(cleaned_bev.columns[0], axis=1)
 
 # speichern der bereinigten Datei in neue CSV:
-cleaned_bev.to_csv('D:\FU\DBS\FinalProject\cleaned_bevoelkerung.csv', index=False)
+cleaned_bev.to_csv('D:\\FU\\DBS\\FinalProject\\cleaned_bevoelkerung.csv', index=False)
 
 print("Data cleaning complete. Cleaned data saved to 'cleaned_bevoelkerung.csv'.")
 
