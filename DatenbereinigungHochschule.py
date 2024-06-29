@@ -25,6 +25,7 @@ columns_to_remove = [
     'Habilitationsrecht', 
     'Promotionsrecht', 
     'Straße',
+    'Bundesland'
 ]
 
 # Entfernen der VORHANDENEN spalten
