@@ -27,7 +27,7 @@ columns_to_remove = [
     'Straße',
 ]
 
-# Entfernen der Spalten, die tatsächlich im DataFrame vorhanden sind
+# Entfernen der VORHANDENEN spalten
 existing_columns_to_remove = [col for col in columns_to_remove if col in hochsch.columns]
 hochsch_cleaned = hochsch.drop(columns=existing_columns_to_remove)
 
