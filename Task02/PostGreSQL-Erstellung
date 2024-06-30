@@ -1,0 +1,20 @@
+-- Tabelle Region erstellen
+CREATE TABLE Region (
+    Region VARCHAR(100) PRIMARY KEY,
+    Weiblich INTEGER,
+    Maennlich INTEGER
+);
+
+-- Tabelle Ort erstellen
+CREATE TABLE Ort (
+    Ort VARCHAR(100) PRIMARY KEY,
+    Region VARCHAR(50) REFERENCES Region(Region)
+);
+
+-- Tabelle HOCHSCHULE erstellen
+CREATE TABLE HOCHSCHULE (
+    Hochschulname VARCHAR(100) PRIMARY KEY,
+    Trägerschaft VARCHAR(50),
+    Anzahl_Studierende INTEGER,
+    Ort VARCHAR(100) REFERENCES Ort(Ort)
+);
